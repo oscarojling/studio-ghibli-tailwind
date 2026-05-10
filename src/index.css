@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Caveat:wght@500;700&family=DM+Mono:wght@400;500&display=swap");
+
+@theme {
+  --color-primary: #2b231a;
+  --color-secondary: #a87a3f;
+  --color-tertiary: #6b8e5a;
+  --color-bg: #f6efe1;
+
+  --font-primary: "Fraunces", serif;
+  --font-secondary: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  margin: 0;
+}

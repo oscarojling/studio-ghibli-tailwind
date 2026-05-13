@@ -19,7 +19,7 @@ const FilmGenerator = () => {
     <div className="flex flex-col items-center justify-center gap-8 m-6 ">
       {randomFilm && <FilmCard {...randomFilm} />}
       <button
-        className="bg-primary text-bg rounded-full cursor-pointer px-7 py-3.5 shadow-[0_6px_0_-2px_var(--color-secondary)] hover:-translate-y-0.5 active:translate-y-0.5 transition"
+        className="bg-primary text-bg rounded-full cursor-pointer p-6 shadow-[0_6px_0_-2px_var(--color-secondary)] hover:-translate-y-0.5 active:translate-y-0.5 transition"
         onClick={handleClick}
       >
         Click for another random film

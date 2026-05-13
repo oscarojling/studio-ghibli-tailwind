@@ -2,7 +2,7 @@ import type { FilmsType } from "../../types/Films";
 
 const FilmCard = ({ title, image, description, release_date }: FilmsType) => {
   return (
-    <div className="flex flex-col items-center text-center gap-6">
+    <div className="flex flex-col items-center text-center gap-4">
       <img
         className="rounded-2xl w-full max-w-sm aspect-2/3 object-cover shadow-2xl -rotate-1 hover:rotate-0 transition-transform duration-500"
         src={image}
